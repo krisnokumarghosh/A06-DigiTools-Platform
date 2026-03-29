@@ -5,7 +5,7 @@ import { Menu, ShoppingCart } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="mb-22.5">
 
     <div className=" flex justify-around  py-5 bg-[#FFFFFF] shadow-sm">
       <div className="flex  md:gap-4 items-center ">
