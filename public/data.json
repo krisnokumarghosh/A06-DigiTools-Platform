@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "free",
+    "features": [
+      "Unlimited AI generations", 
+      "Export to PDF",
+      "Email support"
+    ],
+    "image": "https://i.ibb.co.com/RTv7vQ42/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "features": [
+      "2000+ templates",
+      "Priority email support",
+      "Unlimited revisions"
+    ],
+    "image": "https://i.ibb.co.com/m53CZsDz/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 49.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "features": [
+      "10M+ assets",
+      "Job tracker dashboard",
+      "24/7 priority support"
+    ],
+    "image": "https://i.ibb.co.com/yBpfD36T/camera-8775444-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "new",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Email support"
+    ],
+    "image": "https://i.ibb.co.com/tMYCv5N0/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 299.99,
+    "period": "yearly",
+    "tag": "best value",
+    "features": [
+      "Analytics dashboard",
+      "Internship cover letter builder",
+      "24/7 phone & chat support"
+    ],
+    "image": "https://i.ibb.co.com/5hn80W0w/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "new",
+    "features": [
+      "5000+ assets",
+      "Client proposal templates",
+      "Email support"
+    ],
+    "image": "https://i.ibb.co.com/wFZ4BcJQ/social-media.png"
+  },
+  {
+    "id": 7,
+    "name": "LinkedIn profile optimizer",
+    "description": "All the power of Pro at a discounted yearly rate — best for long-term job seekers.",
+    "price": 79.99,
+    "period": "yearly",
+    "tag": "best value",
+    "features": [
+      "LinkedIn profile optimizer",
+      "Priority support",
+      "Unlimited revisions"
+    ],
+    "image": "https://i.ibb.co.com/HLbxTxpP/images.png"
+  },
+  {
+    "id": 8,
+    "name": "Executive Suite",
+    "description": "Premium plan tailored for senior professionals and C-level executives.",
+    "price": 99.99,
+    "period": "monthly",
+    "tag": "premium",
+    "features": [
+      "Personal branding consultation",
+      "LinkedIn & social media optimizer",
+      "24/7 VIP support"
+    ],
+    "image": "https://i.ibb.co.com/wFZ4BcJQ/social-media.png"
+  }
+]
