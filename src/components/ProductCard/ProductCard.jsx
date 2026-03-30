@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import LiFeatures from './LiFeatures';
 
 
-const ProductCard = ({product}) => {
+const ProductCard = ({product , cart , setCart}) => {
     console.log(product);
     
+    const [isBought , setIsBougth] = useState(false)
+
+    const handleCardBtn = (product) => {
+      setIsBougth(true);
+      setCart([...cart , product])
+    }
+
     return (
         <div className="card border rounded-2xl border-gray-50 w-75 md:w-95 bg-base-100 shadow-sm">
   <div className="card-body py-0">
@@ -39,8 +46,14 @@ const ProductCard = ({product}) => {
       }
     </ul>
     <div className="mt-6">
-      <button className="btn border-0 rounded-full w-full text-white
-      bg-linear-to-r from-[#4F39F6] to-[#9514FA] mb-7">Buy Now</button>
+      <button 
+      disabled={isBought}
+      onClick={() => handleCardBtn(product)}
+      className="btn border-0 rounded-full w-full text-white
+      bg-linear-to-r from-[#4F39F6] to-[#9514FA] mb-7">
+        {isBought === true ? 
+        "Added To Cart" : 
+        "Buy Now"}</button>
     </div>
   </div>
 </div>

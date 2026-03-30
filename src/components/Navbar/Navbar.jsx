@@ -3,7 +3,7 @@ import logo from "../../assets/DigiTools.png"
 import { Menu, ShoppingCart } from "lucide-react";
 
 
-const Navbar = () => {
+const Navbar = ({cart}) => {
   return (
     <div className="mb-22.5">
 
@@ -16,15 +16,16 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex="-1"
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box cursor-pointer z-1 mt-3 w-52 p-2 shadow space-y-4 font-bold"
+            className="menu  menu-sm dropdown-content bg-base-100 rounded-box cursor-pointer z-1 mt-3 w-52 p-2 shadow font-bold"
           >
-           <li>Products</li>
-          <li>Features</li>
-          <li>Pricing</li>
-          <li>Testimonials</li>
-          <li>FAQ</li>
-          <li>LogIn</li>
-          <li className="btn">Cart : 0</li>
+          <li className="hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:text-white p-2 rounded-md">Products</li>
+          <li className="hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:text-white p-2 rounded-md">Features</li>
+          <li className="hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:text-white p-2 rounded-md">Pricing</li>
+          <li className="hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:text-white p-2 rounded-md">Testimonials</li>
+          <li className="hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:text-white p-2 rounded-md">FAQ</li>
+          <li className="hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:text-white p-2 rounded-md">LogIn</li>
+          <li className="btn mt-3 text-white rounded-xl
+          bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Cart : 0</li>
           </ul>
         </div>
         <img className="h-7 md:h-10" src={logo} alt="" />
@@ -41,7 +42,7 @@ const Navbar = () => {
       <div className=" flex items-center gap-2">
         <div className="relative hidden md:flex">
             <ShoppingCart className=""></ShoppingCart>
-            <span className="badge absolute -top-5 left-3 bg-red-500 text-white font-bold rounded-full">0</span>
+            <span className="badge absolute -top-5 left-3 bg-red-500 text-white font-bold rounded-full">{cart.length}</span>
         </div>
         <button className="btn border-0 rounded-full hidden md:flex bg-white font-semibold text-[16px] px-4">LogIn</button>
         <a className="btn  border-0 

@@ -2,7 +2,7 @@ import React, { use, useState } from "react";
 import AvailableProducts from "../AvailableProducts/AvailableProducts";
 import CartProduct from "../CartProduct/CartProduct";
 
-const Products = ({productsPromise}) => {
+const Products = ({productsPromise , cart , setCart}) => {
 
   const productData = use(productsPromise);
   
@@ -42,7 +42,7 @@ const Products = ({productsPromise}) => {
                 "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : 
                 "bg-[#F6F6F6] text-[#25065D]"
               }`}
-            aria-label="Cart(0)"
+            aria-label={`Cart(${cart.length})`}
             
           />
         </div>
@@ -53,11 +53,13 @@ const Products = ({productsPromise}) => {
       {
         selectedType === "products" ? 
         <AvailableProducts
+        setCart={setCart}
+        cart={cart}
         productData={productData}
         ></AvailableProducts> : 
        
        
-        <CartProduct></CartProduct>
+        <CartProduct cart={cart}></CartProduct>
       }
     </div>
   );

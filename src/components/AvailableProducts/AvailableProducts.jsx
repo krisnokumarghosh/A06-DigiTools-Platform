@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductCard from '../ProductCard/ProductCard';
 
-const AvailableProducts = ({productData}) => {
+const AvailableProducts = ({productData , cart , setCart}) => {
 
     
     return (
@@ -10,6 +10,8 @@ const AvailableProducts = ({productData}) => {
                 productData.map(product => {
                     return(
                     <ProductCard 
+                    setCart={setCart}
+                    cart={cart}
                     key={product.id}
                     product={product}
                     ></ProductCard>
