@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { use, useState } from "react";
 import AvailableProducts from "../AvailableProducts/AvailableProducts";
 import CartProduct from "../CartProduct/CartProduct";
 
-const Products = () => {
+const Products = ({productsPromise}) => {
+
+  const productData = use(productsPromise);
+  
 
   const [selectedType , setSelectedType] = useState("products")
 
@@ -49,7 +52,11 @@ const Products = () => {
 
       {
         selectedType === "products" ? 
-        <AvailableProducts></AvailableProducts> : 
+        <AvailableProducts
+        productData={productData}
+        ></AvailableProducts> : 
+       
+       
         <CartProduct></CartProduct>
       }
     </div>

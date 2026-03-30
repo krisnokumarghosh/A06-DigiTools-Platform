@@ -15,7 +15,7 @@ const BannerTop = () => {
                bg-clip-text text-transparent'>New: AI-Powered Tools Available</p>
                 </div>
                 <h1 className='text-[#101727] font-extrabold text-[20px] md:text-[65px]'>Supercharge Your <br /> Digital Workflow</h1>
-                <p className='text-[14px] md:text-[18px] text-[#627382] mt-2'>Access premium AI tools, design assets, templates, and productivity <br /> software—all in one place. Start creating faster today. <br /> Explore Products</p>
+                <p className='text-[14px] md:text-[18px] text-[#627382] mt-2 w-62.5 md:w-142.75 mx-auto'>Access premium AI tools, design assets, templates, and productivity  software—all in one place. Start creating faster today.  Explore Products</p>
                 <div className='md:flex gap-4 mt-5'>
                     <button className='btn text-white border-0 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>Explore Products</button>
 

@@ -3,15 +3,15 @@
     "id": 1,
     "name": "AI Writing Pro",
     "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
-    "price": 0,
+    "price": 39.99,
     "period": "one-time",
-    "tag": "free",
+    "tag": "Best Seller",
     "features": [
       "Unlimited AI generations", 
       "Export to PDF",
       "Email support"
     ],
-    "image": "https://i.ibb.co.com/RTv7vQ42/writing-2327400-1.png"
+    "image": "/images/writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -19,13 +19,13 @@
     "description": "2000+ premium templates for social media, presentations, and marketing materials.",
     "price": 9.99,
     "period": "monthly",
-    "tag": "popular",
+    "tag": "Popular",
     "features": [
       "2000+ templates",
       "Priority email support",
       "Unlimited revisions"
     ],
-    "image": "https://i.ibb.co.com/m53CZsDz/design-tool.png"
+    "image": "/images/design-tool.png"
   },
   {
     "id": 3,
@@ -33,13 +33,13 @@
     "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
     "price": 49.99,
     "period": "monthly",
-    "tag": "best seller",
+    "tag": "New",
     "features": [
       "10M+ assets",
       "Job tracker dashboard",
       "24/7 priority support"
     ],
-    "image": "https://i.ibb.co.com/yBpfD36T/camera-8775444-1.png"
+    "image": "/images/camera_8775444 1.png"
   },
   {
     "id": 4,
@@ -47,13 +47,13 @@
     "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
     "price": 19.99,
     "period": "one-time",
-    "tag": "new",
+    "tag": "Popular",
     "features": [
       "50+ automations",
       "API access",
       "Email support"
     ],
-    "image": "https://i.ibb.co.com/tMYCv5N0/operation.png"
+    "image": "/images/operation.png"
   },
   {
     "id": 5,
@@ -61,13 +61,13 @@
     "description": "Create professional resumes and cover letters that land interviews.",
     "price": 299.99,
     "period": "yearly",
-    "tag": "best value",
+    "tag": "New",
     "features": [
       "Analytics dashboard",
       "Internship cover letter builder",
       "24/7 phone & chat support"
     ],
-    "image": "https://i.ibb.co.com/5hn80W0w/portfolio.png"
+    "image": "/images/portfolio.png"
   },
   {
     "id": 6,
@@ -75,13 +75,13 @@
     "description": "Complete toolkit for creating engaging social media content across all platforms.",
     "price": 14.99,
     "period": "monthly",
-    "tag": "new",
+    "tag": "Best Seller",
     "features": [
       "5000+ assets",
       "Client proposal templates",
       "Email support"
     ],
-    "image": "https://i.ibb.co.com/wFZ4BcJQ/social-media.png"
+    "image": "/images/social-media.png"
   },
   {
     "id": 7,
@@ -89,13 +89,13 @@
     "description": "All the power of Pro at a discounted yearly rate — best for long-term job seekers.",
     "price": 79.99,
     "period": "yearly",
-    "tag": "best value",
+    "tag": "New",
     "features": [
       "LinkedIn profile optimizer",
       "Priority support",
       "Unlimited revisions"
     ],
-    "image": "https://i.ibb.co.com/HLbxTxpP/images.png"
+    "image": "/images/linkedin.png"
   },
   {
     "id": 8,
@@ -103,12 +103,12 @@
     "description": "Premium plan tailored for senior professionals and C-level executives.",
     "price": 99.99,
     "period": "monthly",
-    "tag": "premium",
+    "tag": "Popular ",
     "features": [
       "Personal branding consultation",
       "LinkedIn & social media optimizer",
       "24/7 VIP support"
     ],
-    "image": "https://i.ibb.co.com/wFZ4BcJQ/social-media.png"
+    "image": "/images/social-media.png"
   }
 ]
