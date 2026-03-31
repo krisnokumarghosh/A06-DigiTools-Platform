@@ -6,6 +6,7 @@ const Products = ({productsPromise , cart , setCart}) => {
 
   const productData = use(productsPromise);
   
+  const [price , setPrice] = useState(0);
 
   const [selectedType , setSelectedType] = useState("products")
 
@@ -53,13 +54,19 @@ const Products = ({productsPromise , cart , setCart}) => {
       {
         selectedType === "products" ? 
         <AvailableProducts
+        setPrice={setPrice}
+        price={price}
         setCart={setCart}
         cart={cart}
         productData={productData}
         ></AvailableProducts> : 
        
        
-        <CartProduct cart={cart}></CartProduct>
+        <CartProduct 
+        setPrice={setPrice}
+        price={price}
+        setCart={setCart}
+        cart={cart}></CartProduct>
       }
     </div>
   );

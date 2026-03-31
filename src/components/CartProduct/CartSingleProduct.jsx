@@ -1,6 +1,17 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
-const CartSingleProduct = ({product}) => {
+const CartSingleProduct = ({product , cart , setCart , price , setPrice}) => {
+
+    const handleRemoveBtn = (product) => {
+        const filteredProduct = cart.filter(selected => selected.id != product.id);
+        toast.success("Removed From Cart");
+        setCart(filteredProduct);
+
+        const newPrice = price - product.price;
+        setPrice(newPrice);
+    }
+
     return (
         <div className='bg-[#F9FAFC] p-6 rounded-xl flex justify-between items-center'>
             
@@ -15,7 +26,9 @@ const CartSingleProduct = ({product}) => {
         </div>
 
         <div>
-            <button className='btn bg-transparent  text-[#FF3980]'>Remove</button>
+            <button 
+            onClick={() => handleRemoveBtn(product)}
+            className='btn bg-transparent  text-[#FF3980]'>Remove</button>
         </div>
 
         </div>

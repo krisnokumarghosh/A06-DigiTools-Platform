@@ -1,15 +1,20 @@
 import React, { useState } from 'react';
 import LiFeatures from './LiFeatures';
+import { toast } from 'react-toastify';
 
 
-const ProductCard = ({product , cart , setCart}) => {
+const ProductCard = ({product , cart , setCart , price , setPrice}) => {
     console.log(product);
     
     const [isBought , setIsBougth] = useState(false)
 
     const handleCardBtn = (product) => {
       setIsBougth(true);
+      toast.success("Product Added To Cart Successfully")
       setCart([...cart , product])
+
+      const updatedPrice = price + product.price;
+      setPrice(updatedPrice);
     }
 
     return (

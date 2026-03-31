@@ -1,7 +1,13 @@
 import React from 'react';
 import CartSingleProduct from './CartSingleProduct';
+import { toast } from 'react-toastify';
 
-const CartProduct = ({cart}) => {
+const CartProduct = ({cart , setCart , price , setPrice}) => {
+    
+    const handleCheckoutBtn = () => {
+        toast.success("Payment Successfull")
+        setCart([]);
+    }
     
     return (
         <div className='container mx-auto border border-gray-100 rounded-xl p-10 mb-20'>
@@ -20,6 +26,10 @@ const CartProduct = ({cart}) => {
                 cart.map(product => {
                     return(
                         <CartSingleProduct 
+                        price={price}
+                        setPrice={setPrice}
+                        cart={cart}
+                        setCart={setCart}
                         key={product.id}
                         product={product}></CartSingleProduct>
                     )
@@ -29,11 +39,12 @@ const CartProduct = ({cart}) => {
 
             <div className='flex justify-between items-center mt-6 mb-6'>
                 <p className='text-[16px] text-[#627382]'>Total:</p>
-                <p className='font-bold text-[24px] text-[#101727]'>$0</p>
+                <p className='font-bold text-[24px] text-[#101727]'>${price}</p>
             </div>
 
             <div>
                 <button 
+                onClick={handleCheckoutBtn}
                 className='text-white btn border-0 
                 bg-linear-to-r from-[#4F39F6] to-[#9514FA]
                 rounded-full w-full'
