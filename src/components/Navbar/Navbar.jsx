@@ -5,7 +5,7 @@ import { Menu, ShoppingCart } from "lucide-react";
 
 const Navbar = ({cart}) => {
   return (
-    <div className="mb-22.5">
+    <div className="mb-10 md:mb-22.5">
 
     <div className=" flex justify-around  py-5 bg-[#FFFFFF] shadow-sm">
       <div className="flex  md:gap-4 items-center ">
@@ -25,7 +25,7 @@ const Navbar = ({cart}) => {
           <li className="hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:text-white p-2 rounded-md">FAQ</li>
           <li className="hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:text-white p-2 rounded-md">LogIn</li>
           <li className="btn mt-3 text-white rounded-xl
-          bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Cart : 0</li>
+          bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Cart : {cart.length}</li>
           </ul>
         </div>
         <img className="h-7 md:h-10" src={logo} alt="" />
@@ -40,11 +40,11 @@ const Navbar = ({cart}) => {
         </ul>
       </div>
       <div className=" flex items-center gap-2">
-        <div className="relative hidden md:flex">
+        <div className="relative hidden lg:flex">
             <ShoppingCart className=""></ShoppingCart>
             <span className="badge absolute -top-5 left-3 bg-red-500 text-white font-bold rounded-full">{cart.length}</span>
         </div>
-        <button className="btn border-0 rounded-full hidden md:flex bg-white font-semibold text-[16px] px-4">LogIn</button>
+        <button className="btn border-0 rounded-full hidden lg:flex bg-white font-semibold text-[16px] px-4">LogIn</button>
         <a className="btn  border-0 
         rounded-full text-white
         bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Get Started</a>
