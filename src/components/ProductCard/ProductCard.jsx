@@ -18,7 +18,7 @@ const ProductCard = ({product , cart , setCart , price , setPrice}) => {
     }
 
     return (
-        <div className="card border rounded-2xl border-gray-50 w-75 md:w-95 bg-base-100 shadow-sm">
+        <div className="card  border rounded-2xl border-gray-50 w-75 md:w-95 bg-base-100 shadow-sm">
   <div className="card-body py-0">
     <div className='flex justify-end mt-3'>
     <span className={`badge font-medium
@@ -54,7 +54,7 @@ const ProductCard = ({product , cart , setCart , price , setPrice}) => {
       <button 
       disabled={isBought}
       onClick={() => handleCardBtn(product)}
-      className="btn border-0 rounded-full w-full text-white
+      className="btn hover:scale-102 transition-all duration-500 border-0 rounded-full w-full text-white
       bg-linear-to-r from-[#4F39F6] to-[#9514FA] mb-7">
         {isBought === true ? 
         "Added To Cart" : 

@@ -14,7 +14,7 @@ const Steps = () => {
 
 
         <div className='container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center'>
-           <div className='w-75  md:w-95 bg-[#FFFFFF] p-5 rounded-xl border border-gray-200 '>
+           <div className='w-75 hover:scale-103 transition-all duration-500  md:w-95 bg-[#FFFFFF] p-5 rounded-xl border border-gray-200 '>
                 <div className='flex justify-end mb-6'>
                     <span className="px-3 py-2 text-white rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">01</span>
                 </div>
@@ -27,7 +27,7 @@ const Steps = () => {
                     <p className='mt-3 text-[#627382]'>Sign up for free in seconds. No credit card required to get started.</p>
                 </div>
            </div>
-           <div className='w-75  md:w-95 bg-[#FFFFFF] p-5 rounded-xl border border-gray-200 '>
+           <div className='w-75 hover:scale-103 transition-all duration-500 md:w-95 bg-[#FFFFFF] p-5 rounded-xl border border-gray-200 '>
                 <div className='flex justify-end mb-6'>
                     <span className="px-3 py-2 text-white rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">02</span>
                 </div>
@@ -40,7 +40,7 @@ const Steps = () => {
                     <p className=' mt-3 text-[#627382]'>Browse our catalog and select the tools that fit your needs.</p>
                 </div>
            </div>
-           <div className='w-75  md:w-95 bg-[#FFFFFF] p-5 rounded-xl border border-gray-200 '>
+           <div className='w-75 hover:scale-103 transition-all duration-500 md:w-95 bg-[#FFFFFF] p-5 rounded-xl border border-gray-200 '>
                 <div className='flex justify-end mb-6'>
                     <span className="px-3 py-2 text-white rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">03</span>
                 </div>
