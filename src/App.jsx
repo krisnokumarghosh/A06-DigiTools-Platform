@@ -5,6 +5,7 @@ import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import Products from './components/Products/Products'
 import { ToastContainer } from 'react-toastify'
+import Steps from './components/Steps/Steps'
 
 const fetchData = async () => {
   const res = await fetch("/data.json");
@@ -27,6 +28,7 @@ function App() {
       cart={cart}
       productsPromise={productsPromise}></Products>
       </Suspense>
+      <Steps></Steps>
 
 
 
