@@ -4,7 +4,7 @@ const PricingSection = () => {
   return (
     <div>
       <div className="text-center mt-10 md:mt-25 mb-10">
-        <h1 className="text-[#101727] font-extrabold text-[36px]   md:text-[45px]">
+        <h1 className="text-[#101727] w-70 mx-auto md:w-full font-extrabold text-[34px]   md:text-[45px]">
           Simple, Transparent Pricing
         </h1>
         <p className="text-[13px] md:text-[16px] w-65 md:w-lg   mx-auto text-[#627382] mt-1">
