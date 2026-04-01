@@ -9,7 +9,7 @@ const ProductCard = ({product , cart , setCart , price , setPrice}) => {
     const [isBought , setIsBougth] = useState(false)
 
     const handleCardBtn = (product) => {
-      
+
       const isFound = cart.find(item => item.id === product.id);
 
       if(isFound) {
@@ -61,7 +61,6 @@ const ProductCard = ({product , cart , setCart , price , setPrice}) => {
     </ul>
     <div className="mt-6">
       <button 
-      disabled={isBought}
       onClick={() => handleCardBtn(product)}
       className="btn hover:scale-102 transition-all duration-500 border-0 rounded-full w-full text-white
       bg-linear-to-r from-[#4F39F6] to-[#9514FA] mb-7">

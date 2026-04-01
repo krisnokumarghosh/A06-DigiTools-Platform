@@ -63,8 +63,8 @@ const FooterBottom = () => {
            </div>
 
            <div className='container mx-auto text-white/60 md:flex justify-between items-center  py-8 pl-7 md:pl-0'>
-                <p className='mb-2 md:mb-0'>© 2026 Digitools. All rights reserved.</p>
-                <div className='md:flex items-center gap-3'>
+                <p className='mb-2 md:mb-0 text-[12px] md:text-[16px]'>© 2026 Digitools. All rights reserved.</p>
+                <div className='md:flex items-center gap-3 text-[12px] md:text-[16px]'>
                     <p>Privacy Policy</p>
                     <p>Terms of Service</p>
                     <p>Cookies</p>

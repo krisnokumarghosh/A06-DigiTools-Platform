@@ -17,4 +17,4 @@
 
 <p>• By clicking the "Remove" button on cart section, product is removed from cart, the cart count decreases, the navbar count and the amout in the cart section also decreases.</p>
 
-<p>By clicking the "Checkout" button, the cart is emptied.</p>
+<p>• By clicking the "Checkout" button, the cart is emptied.</p>
