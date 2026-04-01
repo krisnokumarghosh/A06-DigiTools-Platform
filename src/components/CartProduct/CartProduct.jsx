@@ -10,7 +10,7 @@ const CartProduct = ({cart , setCart , price , setPrice}) => {
     }
     
     return (
-        <div className='container mx-auto border border-gray-100 rounded-xl p-10 mb-20'>
+        <div className='container mx-auto border border-gray-200 rounded-xl p-10 mb-20'>
            {
             cart.length === 0 ? 
             <div className='text-center'>

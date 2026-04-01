@@ -8,7 +8,7 @@ const Steps = () => {
         <div className=' py-10 md:py-25 bg-[#F9FAFC]'>
             
         <div className='text-center mb-10'>
-            <h1 className="text-[#101727] font-extrabold text-[39px] md:text-[45px]">Get Started in 3 Steps</h1>
+            <h1 className="text-[#101727] font-extrabold text-[36px] md:text-[45px]">Get Started in 3 Steps</h1>
             <p className="text-[13px] md:text-[16px] w-65 md:w-120 mx-auto text-[#627382] mt-1">Start using premium digital tools in minutes, not hours.</p>
         </div>
 

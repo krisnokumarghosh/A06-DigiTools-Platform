@@ -2,7 +2,7 @@ import React from 'react';
 
 const BannerBottom = () => {
     return (
-        <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white mt-22.5 grid md:grid-cols-3 justify-items-center gap-3 p-15 mb-30
+        <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white mt-22.5 grid md:grid-cols-3 justify-items-center gap-3 p-15 mb-16 md:mb-30
         '>
             
         <div className='text-center'>

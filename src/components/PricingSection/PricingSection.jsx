@@ -4,7 +4,7 @@ const PricingSection = () => {
   return (
     <div>
       <div className="text-center mt-10 md:mt-25 mb-10">
-        <h1 className="text-[#101727] font-extrabold text-[39px]   md:text-[45px]">
+        <h1 className="text-[#101727] font-extrabold text-[36px]   md:text-[45px]">
           Simple, Transparent Pricing
         </h1>
         <p className="text-[13px] md:text-[16px] w-65 md:w-lg   mx-auto text-[#627382] mt-1">
@@ -15,7 +15,7 @@ const PricingSection = () => {
       <div className="container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-7 justify-items-center mb-25">
 
 
-        <div className="hover:-translate-y-1 transition-all duration-500 card w-75 md:w-96 h-112 border border-gray-200 bg-[#F9FAFC] shadow-sm rounded-2xl">
+        <div className="card w-75 md:w-96 h-112 border border-gray-200 bg-[#F9FAFC] shadow-sm rounded-2xl">
           <div className="card-body">
             <div className="">
               <h2 className="text-2xl text-[#101727] font-bold">Starter</h2>
@@ -98,7 +98,7 @@ const PricingSection = () => {
           </div>
         </div>
 
-        <div className="hover:-translate-y-1 transition-all duration-500 card w-75  md:w-96 h-112 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white shadow-sm rounded-2xl relative">
+        <div className="hover:-translate-y-1.5 transition-all duration-500 card w-75  md:w-96 h-112 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white shadow-sm rounded-2xl relative">
           <div className="card-body">
             <span className="badge absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[#FEF3C6] text-[#BB4D00]">Most Popular</span>
             <div className="">
@@ -217,7 +217,7 @@ const PricingSection = () => {
           </div>
         </div>
 
-        <div className="hover:-translate-y-1 transition-all duration-500 card w-75 md:w-96 h-112 border border-gray-200 bg-[#F9FAFC] shadow-sm rounded-2xl">
+        <div className="card w-75 md:w-96 h-112 border border-gray-200 bg-[#F9FAFC] shadow-sm rounded-2xl">
           <div className="card-body">
             <div className="">
               <h2 className="text-2xl text-[#101727] font-bold">Enterprise</h2>

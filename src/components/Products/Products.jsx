@@ -13,7 +13,7 @@ const Products = ({productsPromise , cart , setCart}) => {
   return (
     <div>
       <div className="text-center mb-10 ">
-        <h1 className="text-[#101727] font-extrabold text-[40px] md:text-[45px]">
+        <h1 className="text-[#101727] font-extrabold text-[36px] md:text-[45px]">
           Premium Digital Tools
         </h1>
         <p className="text-[13px] md:text-[16px] w-65 md:w-120 mx-auto text-[#627382] mt-2">
