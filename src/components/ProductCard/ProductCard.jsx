@@ -9,7 +9,16 @@ const ProductCard = ({product , cart , setCart , price , setPrice}) => {
     const [isBought , setIsBougth] = useState(false)
 
     const handleCardBtn = (product) => {
+      
+      const isFound = cart.find(item => item.id === product.id);
+
+      if(isFound) {
+        toast.error("Product already in cart");
+        return;
+      }
+
       setIsBougth(true);
+
       toast.success("Product Added To Cart Successfully")
       setCart([...cart , product])
 
